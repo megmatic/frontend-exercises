@@ -10,14 +10,14 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
-    color: floralwhite;
     margin-left: auto;
     height: 3rem;
+    margin-bottom: 2rem;
 }
 
 .score {
     margin-left: auto;
-    margin-right: 12rem;
+    margin-right: 20%;
     text-transform: uppercase;
     font-size: 2rem;
     color:#9dcfa4;
@@ -25,28 +25,31 @@ body {
 
 .game-board {
     background-color: black;
-    margin: 2rem;
     padding: 0.3rem;
     padding-top: 3rem;
-    height: 90vh;
+    height: 77vh;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
 
-.blocks {
+.game-blocks {
     display: grid;
-    gap: 0.2rem;
     grid-template-columns: repeat(12, 1fr);
+}
+
+.group-of-blocks {
+    gap: 0.2rem;
     margin-bottom: 0.2rem;
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .block {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     height: 40px;
-    width: 100%;
     border-radius: 4px;
-    overflow: hidden;
     box-shadow: inset 0.1em 0.1em cornsilk;
 }
 
@@ -58,10 +61,93 @@ body {
     background-color: yellow;
 }
 
+.green-block {
+    background-color: green;
+}
+
 .blue-block {
     background-color: blue;
 }
 
-.green-block {
-    background-color: green;
+.yellow-row {
+    grid-column: 1 / 13;
+    gap: 0.2rem;
+    margin-bottom: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.yellow-small {
+    gap: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.yellow-medium {
+    grid-column: 5 / 9;
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.eye {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.white-box {
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+}
+
+.white-box-right {
+    right: 0;
+}
+
+.yellow-left {
+    grid-column: 1 / 3;
+}
+
+.eye-left{
+    grid-column: 3 / 5;
+}
+
+.yellow-middle {
+    grid-column: 5 / 9;
+}
+
+.eye-right{
+    grid-column: 9 / 11;
+}
+
+.yellow-right {
+    grid-column: 11 / 13;
+}
+
+.bouncer {
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.bouncer-bar {
+    background-color: #9dcfa4;
+    height: 1rem;
+    width: 11vw;
+    position: absolute;
+    left: 30%;
+    bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1160px) {
+    .game-board {
+        margin: 2rem;
+    }
 }
