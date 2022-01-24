@@ -9,3 +9,5 @@ CSS Grid exercises (Deal Week, Fix the Margin, and Bricks Game) are located in t
 Flexbox exercises are located in the 4-flexbox-exercise folder
 
 The Simple Website exercise is located in the 5-simple-website folder
+
+The Responsive Website exercise is located in the 6-responsive-website folder
