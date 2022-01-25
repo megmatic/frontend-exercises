@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background-image: url("bgstar.gif");
+}
+
+h1 {
+  font-family: 'Courier New', monospace;
+  margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.poster {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.container {
+    margin: auto;
+    max-width: 940px;
+    padding-top: 100px;
+}
+
+.divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-90 {
+    display: block;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-welcome {
+    display: block;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #99f443;
+    padding: 10px;
+}
+
+a {
+    color: #cf2c9e;
+    text-decoration: none;
+    font-weight: bold;
+}
