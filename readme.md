@@ -1,4 +1,4 @@
-# HTML & CSS Exercises
+# Frontend Exercises
 
 HTML exercises are located in the 1-html-exercises folder
 
@@ -11,3 +11,7 @@ Flexbox exercises are located in the 4-flexbox-exercise folder
 The Simple Website exercise is located in the 5-simple-website folder
 
 The Responsive Website exercise is located in the 6-responsive-website folder
+
+The Simple Store Locator exercise is located in the 7-simple-store-locator folder 
+
+The 90s Website exercise is located in the 8-90s-website folder
